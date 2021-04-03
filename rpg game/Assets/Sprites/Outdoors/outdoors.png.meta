@@ -622,7 +622,7 @@ TextureImporter:
     second: outdoors_205
   - first:
       213: 1797810579905105945
-    second: outdoors_206
+    second: grass_2
   - first:
       213: 7366057600045607549
     second: outdoors_207
@@ -709,13 +709,13 @@ TextureImporter:
     second: outdoors_234
   - first:
       213: 5689643536881052945
-    second: outdoors_235
+    second: lake_1
   - first:
       213: -7723685512454578737
-    second: outdoors_236
+    second: lake_2
   - first:
       213: -182647121697091266
-    second: outdoors_237
+    second: lake_3
   - first:
       213: 4679849276007526519
     second: outdoors_238
@@ -739,7 +739,7 @@ TextureImporter:
     second: cesped_2
   - first:
       213: 3204455965965312174
-    second: outdoors_245
+    second: grass_3
   - first:
       213: -3492350074102865922
     second: outdoors_246
@@ -829,13 +829,13 @@ TextureImporter:
     second: outdoors_274
   - first:
       213: -5502256987385083285
-    second: outdoors_275
+    second: lake_4
   - first:
       213: 1559358544034511820
-    second: outdoors_276
+    second: lake_5
   - first:
       213: 4139402714958969498
-    second: outdoors_277
+    second: lake_6
   - first:
       213: 5262773138018219748
     second: outdoors_278
@@ -937,10 +937,10 @@ TextureImporter:
     second: charco_1
   - first:
       213: 7369449584425714941
-    second: outdoors_311
+    second: lake_8
   - first:
       213: 6674196392452866440
-    second: outdoors_312
+    second: lake_9
   - first:
       213: 7008826121457155285
     second: puente_1
@@ -1048,16 +1048,16 @@ TextureImporter:
     second: outdoors_347
   - first:
       213: -3003987886650981617
-    second: outdoors_348
+    second: isle_1
   - first:
       213: -6265839366522298677
-    second: outdoors_349
+    second: isle_2
   - first:
       213: 1216913236844687975
     second: outdoors_350
   - first:
       213: -8581895614194934788
-    second: outdoors_351
+    second: grass_4
   - first:
       213: 6357184522839261417
     second: outdoors_352
@@ -1066,7 +1066,7 @@ TextureImporter:
     second: outdoors_353
   - first:
       213: -6460393529550805959
-    second: outdoors_354
+    second: grass_6
   - first:
       213: 2738974623861649054
     second: sombra_1
@@ -1150,13 +1150,13 @@ TextureImporter:
     second: isleta_2
   - first:
       213: 384609118847860361
-    second: outdoors_382
+    second: isle_4
   - first:
       213: 6801554404711419845
     second: outdoors_383
   - first:
       213: -2842809628929693976
-    second: outdoors_384
+    second: grass_5
   - first:
       213: -3951234887355805279
     second: outdoors_385
@@ -1165,7 +1165,7 @@ TextureImporter:
     second: outdoors_386
   - first:
       213: 2086464895274057255
-    second: outdoors_387
+    second: grass_7
   - first:
       213: -7931310358300875209
     second: roca_7
@@ -3223,7 +3223,7 @@ TextureImporter:
     second: outdoors_1072
   - first:
       213: -4595028236388596372
-    second: outdoors_0
+    second: grass_1
   - first:
       213: 1047070629027940248
     second: outdoors_1
@@ -3529,7 +3529,7 @@ TextureImporter:
     second: outdoors_309
   - first:
       213: -2700621060235537871
-    second: outdoors_310
+    second: lake_7
   - first:
       213: -5102764269979045896
     second: outdoors_313
@@ -3595,7 +3595,7 @@ TextureImporter:
     second: outdoors_379
   - first:
       213: 8226022546814652021
-    second: outdoors_381
+    second: isle_3
   - first:
       213: 669983439541738365
     second: outdoors_388
@@ -4689,7 +4689,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: outdoors_0
+      name: grass_1
       rect:
         serializedVersion: 2
         x: 0
@@ -9015,7 +9015,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_206
+      name: grass_2
       rect:
         serializedVersion: 2
         x: 192
@@ -9624,7 +9624,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_235
+      name: lake_1
       rect:
         serializedVersion: 2
         x: 32
@@ -9645,7 +9645,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_236
+      name: lake_2
       rect:
         serializedVersion: 2
         x: 48
@@ -9666,7 +9666,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_237
+      name: lake_3
       rect:
         serializedVersion: 2
         x: 64
@@ -9834,7 +9834,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_245
+      name: grass_3
       rect:
         serializedVersion: 2
         x: 192
@@ -10464,7 +10464,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_275
+      name: lake_4
       rect:
         serializedVersion: 2
         x: 32
@@ -10485,7 +10485,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_276
+      name: lake_5
       rect:
         serializedVersion: 2
         x: 48
@@ -10506,7 +10506,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_277
+      name: lake_6
       rect:
         serializedVersion: 2
         x: 64
@@ -11199,7 +11199,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_310
+      name: lake_7
       rect:
         serializedVersion: 2
         x: 32
@@ -11220,7 +11220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_311
+      name: lake_8
       rect:
         serializedVersion: 2
         x: 48
@@ -11241,7 +11241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_312
+      name: lake_9
       rect:
         serializedVersion: 2
         x: 64
@@ -11997,7 +11997,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_348
+      name: isle_1
       rect:
         serializedVersion: 2
         x: 32
@@ -12018,7 +12018,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_349
+      name: isle_2
       rect:
         serializedVersion: 2
         x: 48
@@ -12060,7 +12060,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_351
+      name: grass_4
       rect:
         serializedVersion: 2
         x: 80
@@ -12123,7 +12123,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_354
+      name: grass_6
       rect:
         serializedVersion: 2
         x: 128
@@ -12690,7 +12690,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_381
+      name: isle_3
       rect:
         serializedVersion: 2
         x: 32
@@ -12711,7 +12711,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_382
+      name: isle_4
       rect:
         serializedVersion: 2
         x: 48
@@ -12753,7 +12753,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_384
+      name: grass_5
       rect:
         serializedVersion: 2
         x: 80
@@ -12816,7 +12816,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outdoors_387
+      name: grass_7
       rect:
         serializedVersion: 2
         x: 128
@@ -27230,7 +27230,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -27251,7 +27251,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -27272,7 +27272,7 @@ TextureImporter:
         width: 48
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
