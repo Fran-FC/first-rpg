@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : MonoBehaviour
+public class Consumable : MonoBehaviour
 {
-    public HitPoints hitPoints;
+    public Item item;
 }
