@@ -16,12 +16,12 @@ public class Player : Character
                 switch (item.itemType)
                 {
                     case Item.ItemType.COIN:
-                        shouldDisappear  = true;
+                        shouldDisappear = Inventory.instance.AddItem(item);
                         // update coin counter
                         break;    
                     case Item.ItemType.HEALTH:
                         if(hitPoints.health < hitPoints.maxHealth){
-                            AdjustHitPoints(item.quanity);
+                            AdjustHitPoints(item.quantity);
                             shouldDisappear = true;
                         }
                         break;

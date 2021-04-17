@@ -1,0 +1,22 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SpawnPoint : MonoBehaviour
+{
+    public GameObject prefabToSpawn;
+    public float repeatInterval;
+    void Start()
+    {
+       if (repeatInterval > 0.05f) {
+           InvokeRepeating("SpawnObject", 0.0f, repeatInterval);
+       }
+    }
+
+    public GameObject SpawnObject () {
+        if(prefabToSpawn != null){
+            return Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+        }
+        return null;
+    }
+}

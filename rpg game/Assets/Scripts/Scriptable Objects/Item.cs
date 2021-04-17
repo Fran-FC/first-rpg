@@ -7,7 +7,7 @@ public class Item : ScriptableObject
 {
     public string objectName;
     public Sprite sprite;
-    public int quanity;
+    public int quantity;
     public bool stackable;
     public enum ItemType {
         COIN,
