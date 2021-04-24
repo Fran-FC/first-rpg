@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public SpawnPoint playerSpawnpoint;
+    public SpawnPoint enemySpawnpoint;
     public static GameManager instance = null;
     private void Awake() {
         if(instance!= null && instance != this) {
@@ -20,6 +21,8 @@ public class GameManager : MonoBehaviour
 
     private void SetupScene() {
         SpawnPlayer();
+
+        SpawnEnemy();
     }
     private void SpawnPlayer () {
         if (playerSpawnpoint != null){
@@ -29,5 +32,10 @@ public class GameManager : MonoBehaviour
         }
 
         return;
+    }
+    private void SpawnEnemy () {
+        if(enemySpawnpoint != null) {
+            GameObject enemy = enemySpawnpoint.SpawnObject();
+        }
     }
 }
