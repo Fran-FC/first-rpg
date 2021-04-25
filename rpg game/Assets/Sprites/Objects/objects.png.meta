@@ -124,7 +124,7 @@ TextureImporter:
     second: objects_39
   - first:
       213: -7302307326716131399
-    second: objects_40
+    second: ammo
   - first:
       213: -933708202724517508
     second: objects_41
@@ -1920,7 +1920,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_40
+      name: ammo
       rect:
         serializedVersion: 2
         x: 288

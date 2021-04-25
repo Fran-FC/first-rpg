@@ -11,14 +11,6 @@ public class MovementController : MonoBehaviour
     Animator animator;
     SpriteRenderer spriteRenderer;
 
-    enum CharStates {
-        walkEast = 1,
-        walkSouth = 2,
-        walkWest = 3,
-        walkNorth = 4,
-
-        idle = 5
-    }
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,19 +30,10 @@ public class MovementController : MonoBehaviour
         UpdateState();
     }
     private void UpdateState(){
-        CharStates state = CharStates.idle;
-
-        if (movement.x > 0){
-            state = CharStates.walkEast;
-        } else if (movement.x < 0 ) {
-            state = CharStates.walkWest;
-        } else if (movement.y > 0 ) {
-            state = CharStates.walkNorth;
-        } else if (movement.y < 0 ) {
-            state = CharStates.walkSouth;
-        }
-
-        animator.SetInteger("AnimationState", (int)state);
-        spriteRenderer.flipX = (state == CharStates.walkWest);
+        bool stopped = Mathf.Approximately(movement.x, 0) && Mathf.Approximately(movement.y, 0);
+        animator.SetBool("isWalking", !stopped);
+        animator.SetFloat("xDir", movement.x);
+        animator.SetFloat("yDir", movement.y);
+        spriteRenderer.flipX = (movement.x < 0);
     }
 }
